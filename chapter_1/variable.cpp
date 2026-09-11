@@ -14,12 +14,18 @@ int main()
     int a = 3;
     float b = 85.3;
     char c = 'A';
+    string str = "My name is Aminour";
     double d = 65.564968498498;
+    long long int myHugeInt = 10000000000000 ;
+    bool boolian = true;
 
     cout << "a = " << a << endl
          << "b = " << b << endl
          << "c = " << c << endl
-         << "d = " << d << endl;
+         << "str = " << str << endl
+         << "Boolian = " << boolian << endl
+         << "d = " << d << endl
+         << "My Huge int = " << myHugeInt << endl;
 
     fun();
     // local variable
